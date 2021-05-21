@@ -1,0 +1,40 @@
+
+modLoader = "javafml" #mandatory
+loaderVersion = "[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license = "All rights reserved"
+[[mods]] #mandatory
+# The modid of the mod
+modId = "cctutorial" #mandatory
+version = "1.0" #mandatory
+# A display name for the mod
+displayName = "CCtutorial" #mandatory
+# The description text for the mod (multi line!) (#mandatory)
+description = '''
+    A mod to show you, how the magic of cc works.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.cctutorial]] #optional
+# the modid of the dependency
+modId = "forge" #mandatory
+# Does this dependency have to exist - if not, ordering below must be specified
+mandatory = true #mandatory
+# The version range of the dependency
+versionRange = "[36,)" #mandatory
+# An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+ordering = "NONE"
+# Side this dependency is applied on - BOTH, CLIENT or SERVER
+side = "BOTH"
+# Here's another dependency
+[[dependencies.advancedperipherals]]
+modId = "computercraft"
+mandatory = true
+versionRange = "1.95.3"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.cctutorial]]
+modId = "minecraft"
+mandatory = true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "1.16.5"
+ordering = "NONE"
+side = "BOTH"
