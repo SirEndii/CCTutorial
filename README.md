@@ -18,3 +18,5 @@ We create a peripheral with two functions:
 * CCTutorial - Our main class
 
 * CCTileEntity - Our tile entity
+
+* /src/main/resources/META-INF/mods.toml - Here we have our name of the mod, the mod id, the versiond and more. The most importang thing in the file is the modid and the dependencies for addons like cc-tweaked.
