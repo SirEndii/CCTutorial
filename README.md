@@ -1,5 +1,5 @@
 # CC Tutorial
-This is a little tutorial on how peripherals in cc works.
+This is a little tutorial on how peripherals in cc work.
 We use the simple system with the IPeripheral interface.
 
 If you want to see, how I use this system with more functions and blocks, take a look at [Advanced Peripherals](https://github.com/Seniorendi/AdvancedPeripherals)
