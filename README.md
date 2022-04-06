@@ -8,6 +8,10 @@ We create a peripheral with two functions:
 * isRaining - a main thread function which will return true when it rains
 * sendMessage - a function which will send a message to every player
 
+## Supported Versions
+- [1.18](https://github.com/Seniorendi/CCTutorial/tree/1.18)
+- [1.16](https://github.com/Seniorendi/CCTutorial/tree/1.16)
+
 ## Content
 * CCBlock - Our normal block, nothing special
 
@@ -20,3 +24,9 @@ We create a peripheral with two functions:
 * CCTileEntity - Our tile entity
 
 * /src/main/resources/META-INF/mods.toml - Here we have our name of the mod, the mod id, the versiond and more. The most importang thing in the file is the modid and the dependencies for addons like cc-tweaked.
+
+## Pictures
+
+![Functions](https://srendi.de/wp-content/uploads/2022/04/Bild_2022-04-06_145710.png)
+
+![Blocks](https://srendi.de/wp-content/uploads/2022/04/Bild_2022-04-06_145748.png)
