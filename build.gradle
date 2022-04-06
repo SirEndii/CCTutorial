@@ -4,7 +4,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
     }
 }
 
@@ -14,10 +14,10 @@ group = 'de.srendi.cctutorial'
 version = '1.0'
 archivesBaseName = 'cctutorial'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'snapshot', version: '20210309-1.16.5'
+    mappings channel: 'official', version: '1.18.2'
 
     runs {
         client {
@@ -88,9 +88,9 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.23'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.0.40'
 
-    implementation fg.deobf("org.squiddev:cc-tweaked-1.16.4:${cc_version}")
+    implementation fg.deobf("org.squiddev:cc-tweaked-1.18.2:${cc_version}")
 
 }
 
