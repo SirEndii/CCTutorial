@@ -3,8 +3,7 @@ package de.srendi.cctutorial.cctutorial;
 import dan200.computercraft.api.lua.LuaFunction;
 import dan200.computercraft.api.peripheral.IComputerAccess;
 import dan200.computercraft.api.peripheral.IPeripheral;
-import net.minecraft.Util;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 import net.minecraftforge.server.ServerLifecycleHooks;
 
 import javax.annotation.Nonnull;
@@ -82,8 +81,8 @@ public class CCPeripheral implements IPeripheral {
         // Used to get the current server and all online players.
         ServerLifecycleHooks.getCurrentServer().getPlayerList().getPlayers().forEach(player -> {
             // Now, send the message
-            // To send a message, we need a Component(We use a TextComponent) and a sender UUID. We just pass an empty uuid in here
-            player.sendMessage(new TextComponent(message), Util.NIL_UUID);
+            // To send a message, we need a Component(In this case a literal text component).
+            player.sendSystemMessage(Component.literal(message));
         });
     }
 

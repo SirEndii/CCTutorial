@@ -9,6 +9,7 @@ We create a peripheral with two functions:
 * sendMessage - a function which will send a message to every player
 
 ## Supported Versions
+- [1.19](https://github.com/Seniorendi/CCTutorial/tree/1.19)
 - [1.18](https://github.com/Seniorendi/CCTutorial/tree/1.18)
 - [1.16](https://github.com/Seniorendi/CCTutorial/tree/1.16)
 

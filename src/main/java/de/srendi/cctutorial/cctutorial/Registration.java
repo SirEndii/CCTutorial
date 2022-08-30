@@ -18,7 +18,7 @@ public class Registration {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CCtutorial.MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CCtutorial.MODID);
-    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, CCtutorial.MODID);
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, CCtutorial.MODID);
 
     // Blocks
     public static final RegistryObject<Block> CC_BLOCK = register("tutorial_block", CCBlock::new);
