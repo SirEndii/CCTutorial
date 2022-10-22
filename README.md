@@ -30,6 +30,6 @@ We create a peripheral with two functions:
 
 The pictures will be available when the domain comes back to live
 
-![Functions](https://srendi.de/wp-content/uploads/2022/04/Bild_2022-04-06_145710.png)
+![Functions](https://intelligence-modding.de/wp-content/uploads/2022/04/Bild_2022-04-06_145710.png)
 
-![Blocks](https://srendi.de/wp-content/uploads/2022/04/Bild_2022-04-06_145748.png)
+![Blocks](https://intelligence-modding.de/wp-content/uploads/2022/04/Bild_2022-04-06_145748.png)
